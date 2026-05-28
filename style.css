@@ -140,3 +140,9 @@ header{
 .card button:hover{
     background-color: #2968c8;
 }
+.estrelas{
+    color: #f7b500;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 10px 0;
+}
