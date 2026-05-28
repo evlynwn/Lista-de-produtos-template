@@ -1,40 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Lista de produtos</title>
+    <script src="script.js"></script>
+    <title>TechStore</title>
 </head>
+
 <body>
-    <div id="container">
-        <div class="card">
-            <img src="./img/caixa-de-som-jbl-flip-5.png" alt="Foto da caixa de som">
-            <h3>Alto-falante Jb1 Flip7 Portátil Bluetooth Caixa Som</h3>
-            <span>R$109,22</span>
+    <header>
+
+        <div class="logo">
+            TechStore
         </div>
-        <div class="card">
-            <img src="./img/camera-sony-alpha-a7-iii.png" alt="Foto da camera">
-            <h3>Sony Alpha 7 III Kit ILCE-7M3K sem espelho cor preto</h3>
-            <span>R$11.550</span>
+
+        <div class="pesquisa">
+            <input type="text" placeholder="Buscar produtos...">
+            <button>🔍</button>
         </div>
-        <div class="card">
-            <img src="./img/fone-de-ouvido-bluetooth-jbl-tune-500bt.png" alt="Foto do fone">
-            <h3>JBL Fone de Ouvido sem Fio Tune 520BT</h3>
-            <span>R$242</span>
+
+        <div class="menu">
+            <a href="">Entrar</a>
+            <a href="">Carrinho</a>
         </div>
+
+    </header>
+
+    <section class="filtros">
+
+        <button>Todos</button>
+        <button>Fones</button>
+        <button>Câmeras</button>
+        <button>Monitores</button>
+        <button>Smartwatch</button>
+
+        <select>
+            <option>Mais relevantes</option>
+            <option>Menor preço</option>
+            <option>Maior preço</option>
+        </select>
+
+    </section>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="./img/caixa-de-som-jbl-flip-5.png" alt="">
+            <h3>Alto-falante JBL Flip 7 Portátil Bluetooth</h3>
+            <p class="preco">R$109,22</p>
+            <p class="frete">Frete grátis</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="./img/camera-sony-alpha-a7-iii.png" alt="">
+            <h3>Sony Alpha 7 III Kit sem espelho</h3>
+            <p class="preco">R$11.550</p>
+            <p class="frete">Frete grátis</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="./img/fone-de-ouvido-bluetooth-jbl-tune-500bt.png" alt="">
+            <h3>Fone JBL Tune 520BT</h3>
+            <p class="preco">R$242</p>
+            <p class="frete">Frete grátis</p>
+            <button>Comprar</button>
+        </div>
+
         <div class="card">
             <img src="./img/monitor-samsung-led-23.8.png" alt="Foto do moitor">
-            <h3>Monitor Samsung Led</h3>
-            <span></span>
+            <h3>Monitor para PC Samsung LU28R550UQLMZD 28 LED IPS - Widescreen Ultra HD HDMI 60Hz 4ms</h3>
+            <p class="preco">R$ 2.789,07</p>
+            <p class="frete">Frete grátis</p>
+            <button>Comprar</button>
         </div>
         <div class="card">
             <img src="./img/mouse-gamer-logitech-g-pro.png" alt="Foto do mouse">
-            <h3>Mouse game logitech Pro</h3>
-            <span></span>
-
+            <h3>Mouse Gamer Sem Fio Logitech G703 LIGHTSPEED com RGB LIGHTSYNC, 6 Botões Programáveis, Sensor HERO 25K e Bateria Recarregável </h3>
+            <p class="preco">R$378,94</p>
+            <p class="frete">Frete grátis</p>
+            <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="./img/caixa-de-som-jbl-flip-5.png" alt="Foto da caixa">
+            <h3>Caixa de som Bluetooth JBL Flip5</h3>
+            <p class="preco">R$ 899,00</p>
+            <p class="frete">Frete grátis</p>
+            <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="img/fone-de-ouvido-bluetooth-jbl-tune-500bt.png" alt="Foto do fone">
+            <h3>Fone De Ouvido Bluetooth Jbl Tune 500bt Sem Fio - Preto</h3>
+            <p class="preco">R$245,00</p>
+            <p class="frete">Frete grátis</p>
+            <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="./img/smartwatch-samsung-galaxy-watch-3.png" alt="Foto do smartwatch">
+            <h3>Galaxy Watch3 Samsung Lte 45mm 8gb 1gb Ram - Preto - Excelente (Recondicionado)</h3>
+            <p class="R$699,99"></p>
+           <p class="frete">Frete grátis</p>
+           <button>Comprar</button>
+        </div>
+        <div class="card">
+            <img src="./img/camera-sony-alpha-a7-iii.png" alt="Foto dqa camera">
+            <h3>Sony Alpha A7 Iii Mirrorless Camera PNG</h3>
+            <p class="preco">R$ 10.753,05</p>
+           <p class="frete">Frete grátis</p>
+           <button>Comprar</button>
         </div>
     </div>
+
     
 </body>
 </html>
